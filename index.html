@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <title>Parallax Scrolling in Space</title>
+      <style>
+         body { background-color: #000000; }
+         canvas { background-color: #000000; }
+      </style>
+   </head>
+   <body onload="init();">
+      <div align="center">
+         <canvas id="game-canvas" width="1024" height="320"></canvas>
+      </div>
+      <script src="pixi.js-master/bin/pixi.dev.js"></script>
+      <script src="js/bg.js"></script>
+      <script src="js/rocksDownMid.js"></script>
+      <script src="js/rocksDownSmall.js"></script>
+      <script src="js/rocksUpBig.js"></script>
+      <script src="js/rocksUpSmall.js"></script>
+      <script src="js/stars.js"></script>
+      <script src="js/sun.js"></script>
+      <script src="js/saturnus.js"></script>
+      <script src="js/Scroller.js"></script>
+      <script src="js/MeteroitSpritesPool.js"></script>
+      <script src="js/SliceType.js"></script>
+      <script src="js/MeteroitSlice.js"></script>
+      <script src="js/Meteroits.js"></script>
+      <script src="js/MapBuilder.js"></script>
+      <script src="js/keys.js"></script>
+      <script src="js/Main.js"></script>
+
+      <script>
+	function init() {
+	  main = new Main();
+	}
+
+     </script>
+   </body>
+</html>
